@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import ThemeProvider from 'react-bootstrap/ThemeProvider'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
+import Card from 'react-bootstrap/Card';
 
 function App() {
   return (
@@ -29,6 +29,41 @@ function App() {
         <Row>
           <Col>
             <h1 className="text-center">Welcome to the Excuse Generator!</h1>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Card border="primary" style={{ width: '18rem' }}>
+              <Card.Body>
+                <Card.Title>5 categories</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card border="primary" style={{ width: '18rem' }}>
+              <Card.Body>
+                <Card.Title>Quick &amp; Easy</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card border="primary" style={{ width: '18rem' }}>
+              <Card.Body>
+                <Card.Title>Reuse</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
           </Col>
         </Row>
       </div>
