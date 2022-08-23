@@ -6,6 +6,8 @@ import ThemeProvider from 'react-bootstrap/ThemeProvider'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+import './style.css';
 
 function App() {
   return (
@@ -26,20 +28,19 @@ function App() {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-        <Container>
-          <Row>
+        <Container className="d-flex align-items-center flex-column">
+          <Row className="pt-5">
             <Col>
               <h1 className="text-center">Welcome to the Excuse Generator!</h1>
             </Col>
           </Row>
-          <Row className="justify-content-md-center">
+          <Row className="justify-content-md-center pt-5">
             <Col sm>
               <Card border="primary">
                 <Card.Body>
                   <Card.Title>5 categories</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat blandit risus nec fringilla. In porta efficitur venenatis. Integer risus massa, vehicula a pulvinar id, condimentum nec ex. Ut faucibus dignissim metus, id ornare arcu ullamcorper et. Quisque interdum mi pharetra, viverra ipsum nec, luctus orci. Aenean ultrices augue et.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -49,8 +50,7 @@ function App() {
                 <Card.Body>
                   <Card.Title>Quick &amp; Easy</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat blandit risus nec fringilla. In porta efficitur venenatis. Integer risus massa, vehicula a pulvinar id, condimentum nec ex. Ut faucibus dignissim metus, id ornare arcu ullamcorper et. Quisque interdum mi pharetra, viverra ipsum nec, luctus orci. Aenean ultrices augue et.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -60,11 +60,15 @@ function App() {
                 <Card.Body>
                   <Card.Title>Review &amp; Reuse</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat blandit risus nec fringilla. In porta efficitur venenatis. Integer risus massa, vehicula a pulvinar id, condimentum nec ex. Ut faucibus dignissim metus, id ornare arcu ullamcorper et. Quisque interdum mi pharetra, viverra ipsum nec, luctus orci. Aenean ultrices augue et.
                   </Card.Text>
                 </Card.Body>
               </Card>
+            </Col>
+          </Row>
+          <Row className="pt-5">
+            <Col>
+              <Button variant="primary" size="lg">GENERATE EXCUSE</Button>
             </Col>
           </Row>
         </Container>
