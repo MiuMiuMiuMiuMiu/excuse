@@ -31,7 +31,7 @@ function App() {
             <h1 className="text-center">Welcome to the Excuse Generator!</h1>
           </Col>
         </Row>
-        <Row>
+        <Row className="align-items-center">
           <Col>
             <Card border="primary" style={{ width: '18rem' }}>
               <Card.Body>
@@ -57,7 +57,7 @@ function App() {
           <Col>
             <Card border="primary" style={{ width: '18rem' }}>
               <Card.Body>
-                <Card.Title>Reuse</Card.Title>
+                <Card.Title>Review &amp; Reuse</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the
                   bulk of the card's content.
