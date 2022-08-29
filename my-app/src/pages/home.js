@@ -14,7 +14,7 @@ const Home = () => {
                 </Col>
             </Row>
             <Row className="justify-content-md-center pt-5">
-                <Col sm>
+                <Col md>
                     <Card border="primary">
                         <Card.Body>
                             <Card.Title>5 categories</Card.Title>
@@ -24,7 +24,7 @@ const Home = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col sm>
+                <Col md>
                     <Card border="primary">
                         <Card.Body>
                             <Card.Title>Quick &amp; Easy</Card.Title>
@@ -34,7 +34,7 @@ const Home = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col sm>
+                <Col md>
                     <Card border="primary">
                         <Card.Body>
                             <Card.Title>Review &amp; Reuse</Card.Title>
