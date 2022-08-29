@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -46,7 +47,7 @@ const Home = () => {
             </Row>
             <Row className="pt-5">
                 <Col>
-                    <Button variant="primary" size="lg">GENERATE EXCUSE</Button>
+                    <Button variant="primary" size="lg" as={Link} to="/generator">GENERATE EXCUSE</Button>
                 </Col>
             </Row>
         </Container>
