@@ -3,12 +3,14 @@ import Container from 'react-bootstrap/Container';
 
 const Generator = () => {
     return (
-        <Container className="col-4">
-            <ListGroup className="text-center" variant="flush">
-                <ListGroup.Item>Cras justo odio</ListGroup.Item>
-                <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-                <ListGroup.Item>Morbi leo risus</ListGroup.Item>
-                <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
+        <Container className="pt-5 col-4 display-6">
+            <h1 className="text-center pb-4">I need an excuse for...</h1>
+            <ListGroup className="text-center gap-1" variant="flush">
+                <ListGroup.Item>Family</ListGroup.Item>
+                <ListGroup.Item>Office</ListGroup.Item>
+                <ListGroup.Item>Children</ListGroup.Item>
+                <ListGroup.Item>Collage</ListGroup.Item>
+                <ListGroup.Item>Party</ListGroup.Item>
             </ListGroup>
         </Container>
     );
