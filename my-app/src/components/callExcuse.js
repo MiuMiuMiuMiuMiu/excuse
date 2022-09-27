@@ -1,6 +1,6 @@
-const CallExcuse = () => {
+const CallExcuse = (props) => {
     return (
-        console.log("Hello")
+        console.log(props)
     );
 };
 
